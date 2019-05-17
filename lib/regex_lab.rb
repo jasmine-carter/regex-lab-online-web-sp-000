@@ -23,5 +23,7 @@ end
 end
 
 def valid_phone_number?(phone)
-phone.match(/[0-9]/)
+if phone.match(/[0-9]/)
+else
+  false
 end
