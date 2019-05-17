@@ -23,11 +23,5 @@ end
 end
 
 def valid_phone_number?(phone)
-phone.each do |number|
-  phone.match[0-9]
-  true
-else
-  false
-end
-end
+phone.match[0-9]
 end
