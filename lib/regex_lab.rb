@@ -15,7 +15,7 @@ words_string.scan(/\b\w{5}\b/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-text.match(/\A+[A-Z])
+text.match(/^[A-Z]\z[.!?]/)
 end
 
 def valid_phone_number?(phone)
