@@ -24,5 +24,9 @@ end
 
 def valid_phone_number?(phone)
 phone.each do |number|
-  [0-9]{10}
+  phone.match[0-9]
+  true
+else
+  false
+end
 end
